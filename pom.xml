@@ -7,6 +7,18 @@
     <groupId>groupId</groupId>
     <artifactId>org.gobeshona.nativesql_to_dto</artifactId>
     <version>99.0-SNAPSHOT</version>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>8</source>
+                    <target>8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
     <dependencies>
         <!-- SLF4J API -->
         <dependency>
@@ -21,7 +33,23 @@
             <artifactId>logback-classic</artifactId>
             <version>1.2.6</version> <!-- Use the latest version available -->
         </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>5.2.3</version>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.8.2</version> <!-- Use the latest version available -->
+            <scope>test</scope>
+        </dependency>
     </dependencies>
-
 
 </project>
