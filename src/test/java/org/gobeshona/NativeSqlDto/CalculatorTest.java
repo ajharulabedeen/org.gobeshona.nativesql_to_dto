@@ -1,4 +1,4 @@
-package org.gobeshona.ExcelDto;
+package org.gobeshona.NativeSqlDto;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

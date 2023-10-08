@@ -1,4 +1,4 @@
-package org.gobeshona.ExcelDto;
+package org.gobeshona.NativeSqlDto;
 
 import lombok.Getter;
 import lombok.Setter;

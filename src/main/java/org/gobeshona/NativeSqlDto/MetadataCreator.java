@@ -1,4 +1,4 @@
-package org.gobeshona.ExcelDto;
+package org.gobeshona.NativeSqlDto;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;

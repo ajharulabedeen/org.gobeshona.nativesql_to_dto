@@ -1,4 +1,4 @@
-package org.gobeshona.ExcelDto;
+package org.gobeshona.NativeSqlDto;
 
 public class Calculator {
     public int add(int a, int b) {
